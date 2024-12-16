@@ -1,0 +1,82 @@
+.story-details-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.story-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.story-images,
+.section-images {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.story-image,
+.adventure-image,
+.word-image {
+  width: 150px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.story-adventure,
+.word-explore,
+.brain-quest {
+  margin-top: 20px;
+}
+
+.section-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.story-section {
+  margin-bottom: 20px;
+}
+
+.story-paragraph {
+  margin-bottom: 10px;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #444;
+}
+
+.word-item,
+.quiz-item {
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.quiz-options {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quiz-option {
+  margin: 5px 0;
+  padding: 8px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.quiz-question {
+  margin-bottom: 10px;
+  font-weight: bold;
+}

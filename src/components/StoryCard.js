@@ -36,7 +36,7 @@ const StoryCard = ({ story }) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg m-4 transition-transform transform hover:scale-105">
       <img
-        src={`https://ik.imagekit.io/dev24/${story?.Image}`}
+        src={`https://ik.imagekit.io/dev24/${story?.Image[0]}`}
         alt={story.Title}
         className="w-full h-48 object-cover"
       />
